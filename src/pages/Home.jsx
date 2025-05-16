@@ -34,7 +34,7 @@ export default function Home() {
         </div>
 
         <div className="rounded overflow-hidden shadow-lg">
-          <img src="public/images/un-jeune-enfant-autiste-joue-avec-sa-famille.jpg" alt="Famille unie" className="w-full h-48 object-cover" />
+          <img src="/images/un-jeune-enfant-autiste-joue-avec-sa-famille.jpg" alt="Famille unie" className="w-full h-48 object-cover" />
           <div className="p-4">
             <h3 className="font-bold text-lg text-blue-700 mb-2">Soutien aux familles</h3>
             <p className="text-gray-600 text-sm">
