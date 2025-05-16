@@ -47,12 +47,12 @@ export default function Home() {
       <section className="text-center">
         <h2 className="text-2xl font-bold mb-4">Vous souhaitez aider ?</h2>
         <p className="mb-6 text-gray-700">Faites un don ou devenez bénévole pour faire la différence.</p>
-        <a
-          href="/faire-un-don"
+        <Link
+          to="/faire-un-don"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
         >
           Je fais un don
-        </a>
+        </Link>
       </section>
     </div>
   );
