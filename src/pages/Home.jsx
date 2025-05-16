@@ -16,7 +16,7 @@ export default function Home() {
         <div className="rounded overflow-hidden shadow-lg">
           <img src="/images/garcon-de-tir-moyen-s-amusant-a-l-exterieur.jpg" alt="Enfant souriant tenant un coeur" className="w-full h-48 object-cover" />
           <div className="p-4">
-            <h3 className="font-bold text-lg text-blue-700 mb-2">Accompagnement personnalisé</h3>
+            <h3 className="font-bold text-lg text-blue-700 mb-2">Accompagnement personnalisé </h3>
             <p className="text-gray-600 text-sm">
               Chaque enfant est unique. Nous adaptons nos actions à ses besoins spécifiques.
             </p>
