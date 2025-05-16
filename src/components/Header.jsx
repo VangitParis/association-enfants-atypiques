@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header className="bg-gray-100 p-4 shadow flex justify-between items-center">
-      <div className="font-bold text-xl">Association</div>
+      <Link to="/">
+        <div className="font-bold text-xl">Association</div>
+      </Link>
       <nav className="space-x-4">
         <Link to="/">Accueil</Link>
         <Link to="/a-propos">À propos</Link>
